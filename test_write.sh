@@ -18,7 +18,7 @@ value=256
 data_path=${path}
 
 
-	for dataset in {40,80}
+	for dataset in {200,400}
 	do	
 		echo "创建测试目录${test_path}"
 		mkdir ${test_path}
